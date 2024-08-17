@@ -1,0 +1,22 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("POSTGRES_PRISMA_URL") // uses connection pooling
+}
+
+model Face {
+  id           Int    @id @default(autoincrement())
+  faceKey      String @unique
+  correctness  Float
+  occurrence    Float
+  memorability Float
+}
+
+model Score {
+  id           Int    @id @default(autoincrement())
+  score        Int    @unique
+  frequency    Int
+}
