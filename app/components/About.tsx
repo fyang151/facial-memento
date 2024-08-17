@@ -33,7 +33,7 @@ const About = () => {
         <br />
         I hope you are enjoying Facial Memento. I like to think of this as my
         first major public project, one that I have made with the express desire
-        to be used and perhaps altered by anyone. Every time you reach that “You
+        to be used and altered by anyone. Every time you reach that “You
         Lost :(“ screen, the website receives data that it uses to improve
         itself, updating the scorechart and the Face Index. Thank you.
         <br />
@@ -61,10 +61,11 @@ const About = () => {
         <br />
         <br />
         If you would like to point out any errors, leave feedback, or have any
-        thoughts at all, please reach out to me at fyang151@gmail.com. I know
-        how risky it is leaving personal emails on the internet, I also know
-        that anyone who actually takes the time to explore this website as much
-        as you have would likely be doing so in good faith.
+        thoughts at all, please reach out to me at fyang151@gmail.com. I like to
+        say that I am very active through email. I know how risky it is leaving
+        personal emails on the internet, I also know that anyone who actually
+        takes the time to explore this website as much as you have would likely
+        be doing so in good faith.
         <br />
         <br />
         My name is Fred Yang, and I am currently a student at UBC in Vancouver.

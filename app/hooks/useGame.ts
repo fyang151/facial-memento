@@ -102,7 +102,6 @@ const useGame = () => {
   };
 
   const getSeenImage = () => {
-    console.log("getting seen image")
     if (seenImages) {
       const randomSeenKey = Math.floor(Math.random() * (seenImages.length - 1));
       const seenImage = seenImages[randomSeenKey];
@@ -130,7 +129,6 @@ const useGame = () => {
   };
 
   const handleCorrect = () => {
-    console.log("correct!")
     const newScore = score + 1;
     setScore(newScore);
 
@@ -138,7 +136,6 @@ const useGame = () => {
   };
 
   const handleIncorrect = () => {
-    console.log("incorrect!")
     const newLives = lives - 1;
     setLives(newLives);
   };
@@ -208,10 +205,6 @@ const useGame = () => {
       setResetTriggered(false);
     }
   }, [resetTriggered]);
-
-  // console.log("currentimage", currentImage);
-  // console.log("seen images", seenImages)
-  // console.log("current image seen?", currentImageIsSeen)
 
   return {
     currentImage: currentImage ? currentImage.key : null,

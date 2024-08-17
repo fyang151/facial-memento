@@ -43,7 +43,6 @@ export const getScores = async () => {
     const data = await res.json();
 
     const scores = data.scores;
-    console.log("aight we got the scores they here:", scores);
 
     return scores;
   } catch (error) {

@@ -4,7 +4,6 @@ import prisma from "@/lib/prisma";
 export async function POST(request: any) {
   try {
     const scoreValue = await request.json();
-    console.log("score", scoreValue);
 
     if (typeof scoreValue !== "number" || isNaN(scoreValue)) {
       throw new Error("Invalid score value");

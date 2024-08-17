@@ -41,7 +41,6 @@ const FacesList = () => {
     const fetchData = async () => {
       await getMemorableFaces().then((item) => {
         const faces = item.memorableFaces;
-        console.log(faces);
         setData(faces);
       });
     };
