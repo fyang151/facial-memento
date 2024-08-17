@@ -32,8 +32,6 @@ const ScoreChart = ({ score }: { score: number }) => {
       setLoading(false);
     };
 
-    console.log(data)
-
     fetchData();
   }, []);
 
