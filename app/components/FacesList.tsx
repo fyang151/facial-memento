@@ -80,7 +80,7 @@ const FacesList = () => {
                 className="transition-opacity duration-300 group-hover:opacity-5 w-[90vw] sm:w-[45vw] md:w-[30vw] lg:w-[23vw]"
               />
             </div>
-            <span className="text-4xl sm:text-3xl md:text-2xl lg:text-[2vw] flex flex-col justify-between absolute top-0 left-0 w-full h-full bg-emerald-500 text-white">
+            <span className="text-3xl md:text-2xl lg:text-[2vw] flex flex-col justify-between absolute top-0 left-0 w-full h-full bg-emerald-500 text-white">
               <h1 className="mt-2 ml-4 mr-2">
                 Memorability Value:{" "}
                 {Math.round(item.memorability * 100000) / 100000}
