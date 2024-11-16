@@ -32,28 +32,23 @@ const About = () => {
         <br />
         <br />
         I hope you are enjoying Facial Memento. I like to think of this as my
-        first major public project, one that I have made with the express desire
-        to be used and altered by anyone. Every time you reach that “You
-        Lost :(“ screen, the website receives data that it uses to improve
-        itself, updating the scorechart and the Face Index. Thank you.
+        first public project, one that I have made with the purpose for others
+        to use. Every time you reach that “You Lost :(“ screen, the website
+        receives data that it uses to improve itself, updating the scorechart
+        and the Face Index. Thank you.
         <br />
         <br />
         My elevator pitch for this project was always “that verbal memory test
         on human benchmark but with faces”, however the idea came from a very
-        cool study that I did with the UBC ASAP Lab. I distinctly remember being
-        fed a series of images and needing to describe whether or not I had seen
-        them before. I’m guessing their gimmick was that they would show me
-        incredibly mundane images next to disturbing ones- it wasn’t really
-        surprising to me that I would remember an image of a bloody surgery
-        better than one of a chair. The study was overall a lot of fun, and
-        variations of it bounced around in my brain until “Facial Memento”
-        finally became a reality.
+        cool study that I did with a very cool lab at UBC. At the time of
+        writing, I unfortunately can not tell you any specific details until
+        they finish their project.
         <br />
         <br />
         This project originally started as a vague idea called “Memory One”,
         which after a few iterations pivoted into another project “Facial
         Recognition Test”. I worked on this for a few months while reading the
-        book “Clean Code”, which eventually convinced me to scrap my current
+        book “Clean Code”, which eventually convinced me to scrap the current
         project and rewrite the codebase from scratch, finally creating “Facial
         Memento” with the help of my friends Ryan and Jamie. While working on
         this, I prioritized making the codebase as enjoyable to work with as
