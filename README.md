@@ -1,1 +1,1 @@
-Currently hosted at https://facial-memento.vercel.app/
+Test your facial recognition abilities.
